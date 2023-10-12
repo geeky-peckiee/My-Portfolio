@@ -25,6 +25,9 @@
     header {
         height: 2.3em;
     }
+    #welcome-section p {
+        font-size: 1.5em;
+    }
 }
 
 @media only screen and (min-width: 800px) {
