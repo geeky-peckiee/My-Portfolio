@@ -1,3 +1,12 @@
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .projects-container { 
+    padding: 2em;
+    }
+   .project-tile {
+       width: 100%;
+   }
+}
+
 @media only screen and (min-width: 800px) {
 #welcome-section h1 {
     text-align: center;
