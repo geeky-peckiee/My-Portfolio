@@ -10,17 +10,20 @@
 @media only screen and (max-width: 400px) {
     .profile-container {
         flex-direction: column;
-        row-gap: 3em;
+        row-gap: 2em;
     }
-    .link {
-        display: flex;
+    .profile-container img{
+       width: 1em;
     }
     #navbar a {
-        font-size: 120%;
+        font-size: 80%;
         text-decoration: none;
         color: white;
         cursor: pointer;
         padding: 0.5em;
+    }
+    header {
+        height: 2.3em;
     }
 }
 
