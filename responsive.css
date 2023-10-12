@@ -5,6 +5,23 @@
    .project-tile {
        width: 100%;
    }
+
+}
+@media only screen and (max-width: 400px) {
+    .profile-container {
+        flex-direction: column;
+        row-gap: 3em;
+    }
+    .link {
+        display: flex;
+    }
+    #navbar a {
+        font-size: 120%;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        padding: 0.5em;
+    }
 }
 
 @media only screen and (min-width: 800px) {
