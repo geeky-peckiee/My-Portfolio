@@ -1,29 +1,3 @@
-@media only screen and (min-width: 250px) {
-header {
-    padding: 0 1.5em 0 0;
-}
-#navbar a {
-    font-size: 120%;
-}
-#welcome-section h1 {
-    font-size: 3em;
-}
-
-#projects {
-    height: 110%;
-    padding-bottom: 1em;
-}
-#contact {
-    height: 60vh;
-}
-.text {
-    font-size: 0.7em
-}
-footer {
-    padding-top: 1.8em;
-    padding-bottom: 1em;
-}
-}
 @media only screen and (min-width: 800px) {
 #welcome-section h1 {
     text-align: center;
@@ -47,6 +21,10 @@ header {
 }
 .projects-container { 
     column-gap: 15px;
+    row-gap: 2em;
+    display: flex;
+    flex-wrap: wrap; 
+    padding-left: 3em;
 }
 .project-tile {
     width: 30%;
